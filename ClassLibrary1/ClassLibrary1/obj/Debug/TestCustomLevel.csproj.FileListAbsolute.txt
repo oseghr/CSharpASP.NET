@@ -1,0 +1,9 @@
+C:\Users\oseghae.oaikhena\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\oseghae.oaikhena\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\oseghae.oaikhena\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\oseghae.oaikhena\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\oseghae.oaikhena\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\TestCustomLevel.csproj.CoreCompileInputs.cache
+C:\Users\oseghae.oaikhena\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\TestCustomLevel.csproj.CopyComplete
+C:\Users\oseghae.oaikhena\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\oseghae.oaikhena\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\oseghae.oaikhena\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\NetworkInnovations.Crm.Core.Crm.Data.dll

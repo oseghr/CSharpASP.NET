@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{88A30576-7583-4F75-8136-5EFD2C14ADFF}") = "CrmPackage", "CrmPackage\CrmPackage.csproj", "{BECA9472-948E-4B60-90DE-A5DBBD7AFCA3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{311AE747-2599-48DB-A231-637BEB73A076} = {311AE747-2599-48DB-A231-637BEB73A076}
+		{390AB096-FB0B-4E91-9B38-96787676894C} = {390AB096-FB0B-4E91-9B38-96787676894C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkInnovations.Crm.Plugins", "NetworkInnovations.Crm.Plugins\NetworkInnovations.Crm.Plugins.csproj", "{311AE747-2599-48DB-A231-637BEB73A076}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkInnovations.Crm.Workflows", "NetworkInnovations.Crm.Workflows\NetworkInnovations.Crm.Workflows.csproj", "{390AB096-FB0B-4E91-9B38-96787676894C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkInnovations.Crm.Core", "NetworkInnovations.Crm.Core\NetworkInnovations.Crm.Core.csproj", "{DA113824-2494-436A-8B1F-C4EB3FC1F5F6}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Reports", "Reports\Reports.rptproj", "{CFE6C33C-91C4-42E1-B2DF-2CAF67FD10C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0DCCAF2D-D7CB-4DBF-A2C1-7ED3661A7101}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Crm", "Crm", "{F789A579-E6BB-4D21-80BF-127098ED8848}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\Crm\Geography_1_0_0_managed.zip = Solution Items\Crm\Geography_1_0_0_managed.zip
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugLocal|Any CPU = DebugLocal|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BECA9472-948E-4B60-90DE-A5DBBD7AFCA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BECA9472-948E-4B60-90DE-A5DBBD7AFCA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BECA9472-948E-4B60-90DE-A5DBBD7AFCA3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BECA9472-948E-4B60-90DE-A5DBBD7AFCA3}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{BECA9472-948E-4B60-90DE-A5DBBD7AFCA3}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{BECA9472-948E-4B60-90DE-A5DBBD7AFCA3}.DebugLocal|Any CPU.Deploy.0 = Debug|Any CPU
+		{BECA9472-948E-4B60-90DE-A5DBBD7AFCA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BECA9472-948E-4B60-90DE-A5DBBD7AFCA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BECA9472-948E-4B60-90DE-A5DBBD7AFCA3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{311AE747-2599-48DB-A231-637BEB73A076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311AE747-2599-48DB-A231-637BEB73A076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311AE747-2599-48DB-A231-637BEB73A076}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{311AE747-2599-48DB-A231-637BEB73A076}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{311AE747-2599-48DB-A231-637BEB73A076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311AE747-2599-48DB-A231-637BEB73A076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{390AB096-FB0B-4E91-9B38-96787676894C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{390AB096-FB0B-4E91-9B38-96787676894C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{390AB096-FB0B-4E91-9B38-96787676894C}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{390AB096-FB0B-4E91-9B38-96787676894C}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{390AB096-FB0B-4E91-9B38-96787676894C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{390AB096-FB0B-4E91-9B38-96787676894C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA113824-2494-436A-8B1F-C4EB3FC1F5F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA113824-2494-436A-8B1F-C4EB3FC1F5F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA113824-2494-436A-8B1F-C4EB3FC1F5F6}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA113824-2494-436A-8B1F-C4EB3FC1F5F6}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{DA113824-2494-436A-8B1F-C4EB3FC1F5F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA113824-2494-436A-8B1F-C4EB3FC1F5F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE6C33C-91C4-42E1-B2DF-2CAF67FD10C3}.Debug|Any CPU.ActiveCfg = Debug
+		{CFE6C33C-91C4-42E1-B2DF-2CAF67FD10C3}.Debug|Any CPU.Build.0 = Debug
+		{CFE6C33C-91C4-42E1-B2DF-2CAF67FD10C3}.Debug|Any CPU.Deploy.0 = Debug
+		{CFE6C33C-91C4-42E1-B2DF-2CAF67FD10C3}.DebugLocal|Any CPU.ActiveCfg = DebugLocal
+		{CFE6C33C-91C4-42E1-B2DF-2CAF67FD10C3}.DebugLocal|Any CPU.Build.0 = DebugLocal
+		{CFE6C33C-91C4-42E1-B2DF-2CAF67FD10C3}.Release|Any CPU.ActiveCfg = Release
+		{CFE6C33C-91C4-42E1-B2DF-2CAF67FD10C3}.Release|Any CPU.Build.0 = Release
+		{CFE6C33C-91C4-42E1-B2DF-2CAF67FD10C3}.Release|Any CPU.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F789A579-E6BB-4D21-80BF-127098ED8848} = {0DCCAF2D-D7CB-4DBF-A2C1-7ED3661A7101}
+	EndGlobalSection
+	GlobalSection(CRMSolutionProperties) = preSolution
+		SolutionIsBoundToCRM = True
+	EndGlobalSection
+EndGlobal

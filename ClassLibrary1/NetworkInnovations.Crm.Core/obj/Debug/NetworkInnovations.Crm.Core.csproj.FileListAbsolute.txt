@@ -1,0 +1,2 @@
+Z:\Shared Folders\P2017\P2017-CRM\CRM Code from Iomer\NetworkInnovations.Crm\NetworkInnovations.Crm.Core\obj\Debug\NetworkInnovations.Crm.Core.csprojAssemblyReference.cache
+Z:\Shared Folders\P2017\P2017-CRM\CRM Code from Iomer\NetworkInnovations.Crm\NetworkInnovations.Crm.Core\obj\Debug\NetworkInnovations.Crm.Core.csproj.CoreCompileInputs.cache

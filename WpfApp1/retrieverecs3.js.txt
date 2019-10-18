@@ -1,0 +1,263 @@
+function retrieveAccountDetails() {
+
+ 
+
+    alert('Success 0');
+
+ 
+
+    Xrm.WebApi.retrieveMultipleRecords("account", "?$select=accountid,ni_citytemp,ni_check").then(
+
+ 
+
+        function success(result) {
+
+ 
+
+            if (result != null) {
+
+ 
+
+                var dataPass = { "ni_check": "Succeed" };
+
+ 
+
+                var dataFail = { "ni_check": "Failed" };
+
+ 
+
+                alert("Entering Loop...");
+
+ 
+
+                for (var accountRecordsCount =0; accountRecordsCount < 50; accountRecordsCount++) {
+
+ 
+
+                    var id = result.entities[accountRecordsCount].accountid;
+
+ 
+
+                    var cityTemp = result.entities[accountRecordsCount].ni_citytemp;
+
+ 
+
+                    if (cityTemp != null) {
+
+                        Xrm.WebApi.retrieveMultipleRecords("geo_city", "?$select=geo_name,geo_cityid&$filter=geo_name eq cityTemp").then(
+
+                            function success(citiesResult) {
+
+                                if (citiesResult != null) {
+
+                                    cityResult = citiesResult.entities[0];
+
+                                    var lookup = new Array();
+
+                                    lookup[0] = new object();
+
+                                    lookup[0].id = cityResult["geo_cityid"];
+
+                                    lookup[0].name = cityResult["geo_name"];
+
+lookup[0].entityType = "account";
+
+dataPass["ni_CityTemp"] = lookup;
+
+                                    Xrm.WebApi.updateRecord("account", id, dataPass).then(
+
+                                        function success(result) {
+
+                                            alert("Account update success");
+
+ 
+
+                                            // perform operations on record update
+
+ 
+
+                                        },
+
+ 
+
+                                        function(error) {
+
+ 
+
+                                            alert(error.message);
+
+ 
+
+                                            // handle error conditions
+
+ 
+
+                                        }
+
+ 
+
+                                    );
+
+                                } else {
+
+                                    Xrm.WebApi.updateRecord("account", id, dataFail).then(
+
+ 
+
+                                        function success(result) {
+
+ 
+
+                                            //alert("Account updated fail");
+
+ 
+
+                                            // perform operations on record update
+
+ 
+
+                                        },
+
+ 
+
+                                        function(error) {
+
+ 
+
+                                            alert(error.message);
+
+ 
+
+                                            // handle error conditions
+
+ 
+
+                                        }
+
+ 
+
+                                    );
+
+                                }
+
+ 
+
+                            },
+
+ 
+
+                            function(error) {
+
+                                 Xrm.WebApi.updateRecord("account", id, dataFail).then(
+
+ 
+
+                                        function success(result) {
+
+ 
+
+                                            alert("Account updated fail");
+
+ 
+
+                                            // perform operations on record update
+
+ 
+
+                                        },
+
+ 
+
+                                        function(error) {
+
+ 
+
+                                            alert(error.message);
+
+ 
+
+                                            // handle error conditions
+
+ 
+
+                                        }
+
+ 
+
+                                    );
+
+                                //alert("City Retrieval Failed");
+
+ 
+
+                            }
+
+ 
+
+                        );
+
+                    } else {
+
+                        Xrm.WebApi.updateRecord("account", id, dataPass).then(
+
+ 
+
+                            function success(result) {
+
+ 
+
+                               // alert("Account updated");
+
+ 
+
+                                // perform operations on record update
+
+ 
+
+                            },
+
+ 
+
+                            function(error) {
+
+ 
+
+                                alert(error.message);
+
+ 
+
+                                // handle error conditions
+
+ 
+
+                            }
+
+ 
+
+                        );
+
+                    }
+
+ 
+
+                }
+
+            }
+
+            alert("Loading account records...");
+
+        },
+
+ 
+
+        function(error) {
+
+            alert(error.message);
+
+            // handle error conditions
+
+        }
+
+    );
+
+}
