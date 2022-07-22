@@ -1,4 +1,0 @@
-C:\Users\oseghae.oaikhena\Desktop\VS Apps\Plugins\SamplePlugins\SamplePlugins\obj\Debug\netstandard2.0\SamplePlugins.csprojAssemblyReference.cache
-C:\Users\oseghae.oaikhena\Desktop\VS Apps\Plugins\SamplePlugins\SamplePlugins\obj\Debug\netstandard2.0\SamplePlugins.csproj.CoreCompileInputs.cache
-C:\Users\oseghae.oaikhena\Desktop\VS Apps\Plugins\SamplePlugins\SamplePlugins\obj\Debug\netstandard2.0\SamplePlugins.AssemblyInfoInputs.cache
-C:\Users\oseghae.oaikhena\Desktop\VS Apps\Plugins\SamplePlugins\SamplePlugins\obj\Debug\netstandard2.0\SamplePlugins.AssemblyInfo.cs
